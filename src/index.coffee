@@ -9,16 +9,12 @@ module.exports = class Gzip
     @options = @config?.plugins?.gzip ? {}
     @targets = [
       {
-        path: @config.paths.public
-        ext:  /\.html$/
-      }
-      {
-        path: @_joinToPublic @options.paths?.javascript or 'javascripts'
-        ext:  /\.js$/
-      }
-      {
-        path: @_joinToPublic @options.paths?.stylesheet or 'stylesheets'
+        path: @_joinToPublic @options.paths?.stylesheet or ''
         ext:  /\.css$/
+      }
+      {
+        path: @_joinToPublic @options.paths?.javascript or ''
+        ext:  /\.js$/
       }
     ]
 
