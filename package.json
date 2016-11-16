@@ -1,8 +1,8 @@
 {
   "name": "gzip-brunch",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Adds gzip support to brunch.",
-  "author": "Kohei Hasegawa",
+  "author": "Anders Emil Nielsen",
   "homepage": "https://github.com/annderslime/gzip-brunch",
   "repository": {
     "type": "git",
