@@ -10,7 +10,6 @@
   },
   "main": "./lib/index",
   "scripts": {
-    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
     "test": "node_modules/.bin/mocha"
   },
   "devDependencies": {
